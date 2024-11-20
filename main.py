@@ -1,4 +1,4 @@
-# Main module containing main menu, user interaction, error handling
+# Main module containing main menu, user interaction, and error handling
 import book_operations
 import user_operations
 import author_operations

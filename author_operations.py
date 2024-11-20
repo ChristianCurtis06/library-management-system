@@ -30,7 +30,7 @@ def display_author_menu():
         for author in authors:
             if author.get_name() == name_input:
                 found = True
-                author.view_user_details()
+                author.view_author_details()
 
         if not found:
             print(f"{name_input} not found in user database.")
